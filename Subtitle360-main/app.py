@@ -620,7 +620,7 @@ def main(debug, share):
     demo1 = ui()
     demo2 = tutorial()
     
-    demo = gr.TabbedInterface([demo1, demo2],["Text To Speech","Voice Character Guide"],title="Long Touch Generator 03060914996", css=css_hider)
+    demo = gr.TabbedInterface([demo1, demo2],["Text To Speech","Voice Character Guide"],title="Demo Long Touch Generator 03060914996", css=css_hider)
     
     demo.queue().launch(debug=debug, share=share, show_api=False)
     # demo.queue().launch(debug=debug, share=share, server_port=9000)
